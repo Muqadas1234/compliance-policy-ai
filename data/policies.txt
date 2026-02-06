@@ -1,0 +1,331 @@
+COMPANY COMPLIANCE POLICIES
+Last Updated: February 2026
+
+================================================================================
+POLICY 1: EXPENSE REIMBURSEMENT
+================================================================================
+Policy ID: FIN-001
+Category: Financial Compliance
+
+All employee expense reimbursements must adhere to the following limits:
+- Single meal expense: Maximum $50 USD
+- Daily meal allowance: Maximum $150 USD
+- Hotel accommodation: Maximum $300 per night
+- Domestic flight: Economy class only, maximum $800
+- International flight: Business class allowed only for flights over 6 hours
+- Ground transportation: Maximum $100 per day
+- Total monthly reimbursement: Maximum $5,000 USD per employee
+
+All expenses must include:
+- Original itemized receipts
+- Business justification
+- Manager pre-approval for expenses over $500
+- Finance Director approval for expenses over $2,000
+
+Violation: Expenses exceeding limits without approval will be rejected and may result in disciplinary action.
+
+================================================================================
+POLICY 2: DATA PRIVACY AND PROTECTION
+================================================================================
+Policy ID: SEC-002
+Category: Information Security
+
+All handling of customer and employee personal data must comply with:
+- No storage of personal data on personal devices
+- No sharing of customer data outside approved systems
+- All personal data must be encrypted at rest and in transit
+- Access to personal data requires role-based authorization
+- Customer data retention: Maximum 7 years after relationship ends
+- Employee data retention: Maximum 10 years after employment ends
+- Data deletion requests must be processed within 30 days
+- No transfer of personal data to third parties without written consent
+- All data breaches must be reported to Security team within 1 hour
+
+Prohibited Actions:
+- Emailing unencrypted customer data
+- Storing passwords in plain text
+- Accessing data without business need
+- Using personal email for company data
+
+Violation: Immediate suspension and potential termination. Legal action may be pursued.
+
+================================================================================
+POLICY 3: VENDOR AND SUPPLIER APPROVAL
+================================================================================
+Policy ID: PROC-003
+Category: Procurement Compliance
+
+All vendor engagements must follow these requirements:
+
+Vendor Selection:
+- Contracts under $10,000: Department manager approval
+- Contracts $10,000 - $50,000: Director approval + Procurement review
+- Contracts over $50,000: Executive approval + Legal review + Compliance check
+- All vendors must pass background check and compliance screening
+
+Required Documentation:
+- W9 or W8 tax forms
+- Certificate of Insurance
+- Signed vendor agreement
+- Conflict of interest disclosure
+- Data security assessment (if handling company data)
+
+Payment Terms:
+- Net 30 standard payment terms
+- Early payment requires CFO approval
+- No cash payments over $500
+- All payments require invoice with PO number
+
+Prohibited Vendors:
+- Vendors on government sanction lists
+- Vendors with known compliance violations
+- Vendors refusing background checks
+- Vendors with conflicts of interest
+
+Violation: Contract void, payment withheld, potential legal action.
+
+================================================================================
+POLICY 4: FINANCIAL TRANSACTION LIMITS
+================================================================================
+Policy ID: FIN-004
+Category: Financial Controls
+
+Authorization limits for financial transactions:
+
+Wire Transfers:
+- Under $25,000: Finance Manager approval
+- $25,000 - $100,000: CFO approval
+- Over $100,000: CFO + CEO dual approval
+
+Check Payments:
+- Under $5,000: Accounts Payable team
+- $5,000 - $25,000: Finance Manager approval
+- Over $25,000: CFO approval
+
+Credit Card Limits:
+- Employee cards: $5,000 per month
+- Manager cards: $15,000 per month
+- Director cards: $50,000 per month
+- All transactions must be reconciled within 7 days
+
+International Transactions:
+- Require additional compliance review
+- Must verify recipient is not on sanctions list
+- Currency conversion must be documented
+- Payments to high-risk countries require Legal approval
+
+Violation: Transaction blocked, card suspended, disciplinary action.
+
+================================================================================
+POLICY 5: EMPLOYEE CODE OF CONDUCT
+================================================================================
+Policy ID: HR-005
+Category: Human Resources Compliance
+
+All employees must adhere to professional conduct standards:
+
+Prohibited Conduct:
+- Harassment or discrimination of any kind
+- Conflicts of interest without disclosure
+- Accepting gifts over $100 from vendors or clients
+- Working for competitors without approval
+- Disclosure of confidential company information
+- Use of company resources for personal gain
+- Insider trading or securities violations
+
+Required Actions:
+- Report conflicts of interest within 5 days
+- Complete annual compliance training
+- Report ethical violations to Ethics Hotline
+- Disclose outside employment or board positions
+- Sign annual code of conduct acknowledgment
+
+Gift Policy:
+- Gifts under $50: Acceptable
+- Gifts $50-$100: Manager disclosure required
+- Gifts over $100: Must be declined or donated to charity
+- Cash gifts: Never acceptable
+
+Violation: Disciplinary action up to and including termination. Criminal conduct will be reported to authorities.
+
+================================================================================
+POLICY 6: DOCUMENT RETENTION AND DESTRUCTION
+================================================================================
+Policy ID: LEGAL-006
+Category: Legal Compliance
+
+Document retention requirements by category:
+
+Financial Records:
+- Tax returns: 7 years
+- Invoices and receipts: 7 years
+- Payroll records: 7 years
+- Audit reports: Permanent
+- Bank statements: 7 years
+
+Employee Records:
+- Personnel files: 7 years after termination
+- Benefits records: 7 years after separation
+- I-9 forms: 3 years after hire or 1 year after termination (whichever is later)
+- Performance reviews: 5 years
+- Termination records: 7 years
+
+Contracts and Agreements:
+- Active contracts: Permanent until 7 years after expiration
+- Vendor agreements: 7 years after termination
+- Customer contracts: 7 years after end of relationship
+- Real estate leases: Permanent
+
+Prohibited Actions:
+- Destroying documents under legal hold
+- Personal retention of company documents
+- Storing documents beyond retention period without Legal approval
+- Improper disposal of confidential documents (must be shredded)
+
+Violation: Legal consequences, potential obstruction charges, termination.
+
+================================================================================
+POLICY 7: ANTI-MONEY LAUNDERING (AML)
+================================================================================
+Policy ID: COMP-007
+Category: Regulatory Compliance
+
+All financial transactions must be monitored for money laundering risks:
+
+Red Flags Requiring Investigation:
+- Cash transactions over $10,000
+- Multiple transactions just below reporting thresholds
+- Transactions with high-risk countries
+- Customer reluctance to provide information
+- Unusual transaction patterns
+- Transactions inconsistent with business profile
+
+Required Actions:
+- Customer due diligence for all new accounts
+- Enhanced due diligence for high-risk customers
+- Transaction monitoring for suspicious activity
+- File Suspicious Activity Report (SAR) within 30 days of detection
+- Maintain transaction records for 5 years
+- Annual AML training for all relevant employees
+
+Prohibited Transactions:
+- Transactions with sanctioned entities
+- Structuring to avoid reporting requirements
+- Transactions lacking business purpose
+- Anonymous transactions over $3,000
+
+Violation: Regulatory fines, criminal prosecution, license revocation.
+
+================================================================================
+POLICY 8: INFORMATION TECHNOLOGY ACCEPTABLE USE
+================================================================================
+Policy ID: IT-008
+Category: Technology Compliance
+
+Company technology resources must be used appropriately:
+
+Acceptable Use:
+- Business purposes only
+- Minimal personal use permitted during breaks
+- Access only to authorized systems and data
+- Use of approved software only
+- Remote access via VPN only
+
+Prohibited Use:
+- Downloading unauthorized software
+- Visiting malicious or inappropriate websites
+- Sharing login credentials
+- Using personal cloud storage for company data
+- Connecting unauthorized devices to network
+- Bypassing security controls
+- Cryptocurrency mining on company systems
+
+Security Requirements:
+- Strong passwords (12+ characters, changed every 90 days)
+- Multi-factor authentication for all critical systems
+- Lock screen when away from desk
+- Report security incidents within 1 hour
+- No sharing of credentials
+- Encrypt all portable devices
+
+Software Licensing:
+- Use only licensed software
+- No installation of unlicensed software
+- Annual software audit compliance required
+- Report unlicensed software immediately
+
+Violation: System access revoked, disciplinary action, potential criminal charges for severe violations.
+
+================================================================================
+POLICY 9: CONFLICT OF INTEREST
+================================================================================
+Policy ID: ETH-009
+Category: Ethics and Compliance
+
+Employees must avoid situations where personal interests conflict with company interests:
+
+Disclosure Requirements:
+- Financial interests in competitors, customers, or vendors
+- Family members employed by business partners
+- Outside employment or consulting
+- Board positions at other organizations
+- Personal business relationships with company stakeholders
+
+Prohibited Conflicts:
+- Hiring family members without disclosure and approval
+- Awarding contracts to companies where employee has financial interest
+- Accepting personal benefits from vendors
+- Competing with company while employed
+- Using company information for personal gain
+
+Review Process:
+- Submit conflict disclosure form within 5 business days
+- Annual conflict of interest certification required
+- Ethics Committee reviews all disclosures
+- Approval or mitigation plan provided within 15 days
+- Recusal from decisions involving conflict
+
+Violation: Termination, disgorgement of profits, potential legal action.
+
+================================================================================
+POLICY 10: WORKPLACE SAFETY AND HEALTH
+================================================================================
+Policy ID: SAFE-010
+Category: Health and Safety Compliance
+
+All employees must maintain safe working environment:
+
+Safety Requirements:
+- Report all accidents and injuries within 24 hours
+- Participate in emergency drills
+- Use personal protective equipment (PPE) when required
+- Follow ergonomic guidelines for workstation setup
+- Report safety hazards immediately
+- Complete annual safety training
+
+Prohibited Actions:
+- Working under influence of drugs or alcohol
+- Bypassing safety equipment or procedures
+- Blocking emergency exits
+- Ignoring safety warnings
+- Operating equipment without training
+- Creating unsafe conditions
+
+Incident Reporting:
+- Minor injuries: Report to supervisor immediately
+- Major injuries: Call emergency services + notify Safety Officer
+- Near misses: Submit safety report within 24 hours
+- Property damage: Report to Facilities within 4 hours
+- All incidents documented in safety management system
+
+Drug and Alcohol Policy:
+- Zero tolerance for impairment at work
+- Random testing for safety-sensitive positions
+- Post-accident testing required
+- Refused testing treated as positive result
+
+Violation: Disciplinary action, potential termination, workers compensation denial for policy violations.
+
+================================================================================
+END OF COMPLIANCE POLICIES
+================================================================================

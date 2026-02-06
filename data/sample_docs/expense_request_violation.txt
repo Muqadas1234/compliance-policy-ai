@@ -1,0 +1,65 @@
+EXPENSE REIMBURSEMENT REQUEST
+
+Employee: Sarah Mitchell
+Department: Marketing
+Date: February 2, 2026
+Request ID: EXP-2026-00156
+
+EXPENSE DETAILS:
+
+Trip Purpose: Industry conference in Las Vegas
+Travel Dates: January 25-28, 2026
+
+Itemized Expenses:
+
+1. Flight (Boston to Las Vegas - Round Trip)
+   Date: January 25, 2026
+   Amount: $1,450.00
+   Class: Business Class
+   Airline: Delta Airlines
+   Note: Booked business class for 4-hour flight due to back problems
+   Receipt: Attached
+
+2. Hotel Accommodation
+   Hotel: Bellagio Resort
+   Check-in: January 25, 2026
+   Check-out: January 28, 2026
+   Nights: 3
+   Rate per night: $425.00
+   Total: $1,275.00
+   Note: Conference hotel was full, needed upgrade
+   Receipt: Attached
+
+3. Meals
+   - Dinner January 25: $180.00 (Steakhouse with colleagues)
+   - Breakfast January 26: $45.00
+   - Lunch January 26: $85.00 (Client lunch)
+   - Dinner January 26: $220.00 (Team dinner at celebrity chef restaurant)
+   - Breakfast January 27: $40.00
+   - Lunch January 27: $65.00
+   - Dinner January 27: $195.00 (Entertainment dinner)
+   - Breakfast January 28: $35.00
+   Total Meals: $865.00
+
+4. Ground Transportation
+   - Taxi to airport: $60.00
+   - Luxury car rental in Vegas: $450.00 (3 days @ $150/day)
+   - Gas: $85.00
+   - Taxi to home: $65.00
+   Total Transportation: $660.00
+
+5. Entertainment & Miscellaneous
+   - Conference tickets: $800.00
+   - Show tickets (Cirque du Soleil): $350.00 (Client entertainment)
+   - Casino chips (client entertainment): $500.00
+   - Golf outing: $300.00
+   - Spa treatment: $200.00 (needed after stressful week)
+   - Hotel wifi: $45.00
+   Total Entertainment: $2,195.00
+
+TOTAL REIMBURSEMENT REQUESTED: $6,445.00
+
+Manager Approval: NOT OBTAINED
+Justification: This was an important networking opportunity. I built valuable relationships.
+
+Note: Some receipts were lost but I have credit card statements showing the charges.

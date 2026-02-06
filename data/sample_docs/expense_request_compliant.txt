@@ -1,0 +1,56 @@
+EXPENSE REIMBURSEMENT REQUEST
+
+Employee: John Anderson
+Department: Sales
+Date: February 3, 2026
+Request ID: EXP-2026-00142
+
+EXPENSE DETAILS:
+
+Trip Purpose: Client meeting in New York City
+Travel Dates: January 28-30, 2026
+
+Itemized Expenses:
+
+1. Flight (Chicago to New York - Round Trip)
+   Date: January 28, 2026
+   Amount: $650.00
+   Class: Economy
+   Airline: United Airlines
+   Receipt: Attached
+
+2. Hotel Accommodation
+   Hotel: Marriott Times Square
+   Check-in: January 28, 2026
+   Check-out: January 30, 2026
+   Nights: 2
+   Rate per night: $280.00
+   Total: $560.00
+   Receipt: Attached
+
+3. Meals
+   - Dinner January 28: $75.00 (Client dinner at Smith & Wollensky)
+   - Breakfast January 29: $25.00
+   - Lunch January 29: $45.00 (Working lunch with client)
+   - Dinner January 29: $95.00 (Team dinner)
+   - Breakfast January 30: $20.00
+   Total Meals: $260.00
+   All receipts attached
+
+4. Ground Transportation
+   - Taxi to airport: $45.00
+   - Uber in NYC (4 trips): $120.00
+   - Taxi to home: $50.00
+   Total Transportation: $215.00
+
+5. Miscellaneous
+   - Internet access at hotel: $15.00 per day x 2 = $30.00
+   - Printing at business center: $12.00
+   Total Miscellaneous: $42.00
+
+TOTAL REIMBURSEMENT REQUESTED: $1,727.00
+
+Manager Approval: Pending
+Justification: Essential client meeting that resulted in $250,000 contract renewal.
+
+All receipts are attached and itemized as required.

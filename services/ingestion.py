@@ -6,6 +6,7 @@ Uses HuggingFace embeddings (FREE - no API key needed!)
 
 import os
 import re
+import sys
 from typing import List, Dict
 from dotenv import load_dotenv
 from llama_index.core import Document, VectorStoreIndex, StorageContext, Settings
@@ -148,12 +149,20 @@ class PolicyIngestor:
             
             if self.collection_name in collection_names:
                 print(f"[WARN] Collection '{self.collection_name}' already exists")
-                response = input("Delete and recreate? (y/n): ")
-                if response.lower() == 'y':
+                recreate = os.getenv("QDRANT_RECREATE", "").lower() in ("1", "true", "yes")
+                if recreate:
                     self.qdrant_client.delete_collection(self.collection_name)
                     print(f"[OK] Deleted existing collection")
+                elif sys.stdin.isatty():
+                    response = input("Delete and recreate? (y/n): ")
+                    if response.lower() == 'y':
+                        self.qdrant_client.delete_collection(self.collection_name)
+                        print(f"[OK] Deleted existing collection")
+                    else:
+                        print("[OK] Using existing collection")
+                        return
                 else:
-                    print("[OK] Using existing collection")
+                    print("[OK] Using existing collection (set QDRANT_RECREATE=true to rebuild)")
                     return
             
             # Create new collection

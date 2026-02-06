@@ -11,6 +11,7 @@ venv/
 hf_cache/
 vector_store/
 .streamlit/
+!.streamlit/config.toml
 *.log
 .DS_Store
 Thumbs.db

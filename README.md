@@ -1,3 +1,13 @@
+---
+title: ComplyFlow AI
+emoji: "✅"
+colorFrom: indigo
+colorTo: pink
+sdk: docker
+app_file: app.py
+pinned: false
+---
+
 # ComplyFlow AI
 Compliance decision demo with policy retrieval, risk scoring, and audit trail.
 

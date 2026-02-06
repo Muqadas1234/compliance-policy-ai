@@ -63,7 +63,7 @@ def _ensure_qdrant_hint() -> Optional[str]:
     return None
 
 
-st.set_page_config(page_title="ComplyFlow AI", page_icon="✅", layout="wide")
+st.set_page_config(page_title="AI Compliance Decision System", page_icon="✅", layout="wide")
 
 st.markdown(
     """
@@ -253,7 +253,7 @@ st.markdown(
     """
     <div class="cf-page">
         <div class="cf-card cf-card-accent cf-center">
-            <div class="cf-title">ComplyFlow AI</div>
+            <div class="cf-title">AI Compliance Decision System</div>
             <div class="cf-subtitle">Compliance decision demo with policy retrieval, risk scoring, and audit trail.</div>
         </div>
         <div class="cf-divider"></div>

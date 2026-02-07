@@ -144,9 +144,9 @@ pip install -r requirements.txt
 Teammates: 🟢 Sana Adeel | 🟠 Muqadas | 🔵 Ahmad Gul
 | Name | Role | Phase | Key Contributions |
 | --- | --- | --- | --- |
-| 🟢 Sana Adeel | Policy ingestion & retrieval | Phase 1 | Policies dataset, ingestion pipeline, retrieval function |
-| 🟠 Muqadas | Agents & decision logic | Phase 2 | Policy/Risk/Workflow agents and decision orchestration |
-| 🔵 Ahmad Gul | UI & demo integration | Phase 3 | Streamlit UI, file upload, demo integration |
+| 🟢 Sana Adeel    | Policy ingestion & retrieval | Phase 1 | Policies dataset, ingestion pipeline, retrieval function |
+| 🟠 Muqadas       | Agents & decision logic | Phase 2 | Policy/Risk/Workflow agents and decision orchestration |
+| 🔵 Ahmad Gul     | UI & demo integration | Phase 3 | Streamlit UI, file upload, demo integration |
 
 ## Notes for Judges / Demo
 - Decisions remain deterministic and reliable without LLM.

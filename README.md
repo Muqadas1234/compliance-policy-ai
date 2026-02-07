@@ -1,5 +1,5 @@
 ---
-title: ComplyFlow AI
+title: AI Compliance Decision System
 emoji: "✅"
 colorFrom: indigo
 colorTo: pink
@@ -8,23 +8,38 @@ app_file: app.py
 pinned: false
 ---
 
-# ComplyFlow AI
-Compliance decision demo with policy retrieval, risk scoring, and audit trail.
+# AI Compliance Decision System
+Automates compliance decisions by comparing documents against policies, scoring risk, and producing a clear audit trail for review.
 
-## What This Does
-- Ingests company policies into Qdrant (vector DB)
-- Retrieves relevant policies for a document
-- Runs agents:
-  - Policy Agent: summary + findings (LLM optional)
+## Problem Statement
+Organizations struggle to consistently validate documents (expenses, requests, communications) against internal policies. Manual review is slow, error‑prone, and inconsistent.
+
+## Solution
+This system ingests policies, retrieves the most relevant rules for a given document, and generates a decision with a traceable audit trail.
+
+## Key Features
+- Policy ingestion into Qdrant (vector database)
+- Retrieval of relevant policies for each document
+- Multi‑agent pipeline:
+  - Policy Agent: findings + summary (LLM optional)
   - Risk Agent: risk score + explanation
   - Workflow Agent: final decision (Approve / Flag / Escalate)
-- Streamlit UI for demo
+- Streamlit UI with audit trail and evidence
+- Works with local embedded Qdrant or Docker Qdrant server
 
 ## Tech Stack
 - Python, Streamlit
-- Qdrant (Docker server or local embedded)
-- LlamaIndex + HuggingFace embeddings (BAAI/bge-small-en-v1.5)
-- Optional LLM: Gemini (for richer policy summary)
+- Qdrant (Docker server or local embedded mode)
+- LlamaIndex + Hugging Face embeddings (`BAAI/bge-small-en-v1.5`)
+- Optional LLM: Gemini (richer policy summaries)
+
+## Architecture (High Level)
+1. Ingest policies into Qdrant (vector store)
+2. Retrieve policy chunks relevant to the document
+3. Policy Agent analyzes violations and summaries
+4. Risk Agent scores severity
+5. Workflow Agent produces decision + audit trail
+6. UI renders decision, explanation, and evidence
 
 ## Project Structure
 ```
@@ -50,7 +65,7 @@ Compliance decision demo with policy retrieval, risk scoring, and audit trail.
 └── SETUP_GUIDE.md
 ```
 
-## Setup (Windows)
+## Quick Start (Windows)
 ```powershell
 cd "C:\Users\Raza\Documents\hackathon 2026"
 python -m venv venv
@@ -62,7 +77,7 @@ notepad .env
 ```
 
 ## Environment (.env)
-### Qdrant (choose ONE)
+### Qdrant (choose one mode)
 **Docker/server mode:**
 ```
 QDRANT_URL=http://localhost:6333
@@ -94,7 +109,8 @@ Check:
 docker ps
 ```
 
-## Ingest Policies (first time or after policy changes)
+## Ingest Policies
+Run this once (or whenever policies change):
 ```powershell
 .\venv\Scripts\python.exe services\ingestion.py
 ```
@@ -112,21 +128,34 @@ docker ps
 ## Sample Inputs
 Use the sample docs in `data/sample_docs/` or paste your own text in the UI.
 
+## Important Implementation Steps Completed
+- Added full end‑to‑end decision pipeline (policy → risk → workflow)
+- Embedded and Docker Qdrant support with `.env` toggles
+- Streamlit UI with audit trail and policy evidence
+- Optional LLM integration for richer policy summaries
+- Deployment‑ready Dockerfile for Hugging Face Spaces
+- CORS/XSRF adjustments for file uploads in hosted environments
+
 ## Troubleshooting
 **Qdrant storage in use**
-- You cannot use Docker Qdrant and local QDRANT_PATH at the same time.
+- You cannot use Docker Qdrant and local `QDRANT_PATH` at the same time.
 - Choose one in `.env`, then restart the app.
 
 **LLM shows "No"**
 - Ensure `USE_LLM=true`, `LLM_PROVIDER=gemini`, and API key is set.
-- Free tier has quotas; if quota exceeded, LLM will fall back.
+- Free tier quotas can disable LLM responses temporarily.
 
 **Dependencies missing**
 ```
 pip install -r requirements.txt
 ```
 
+## Teammates
+- Sana Adeel — Core pipeline & setup (first part)
+- Muqadas — Agents (policy, risk, workflow)
+- Ahmad Gul — Frontend (Streamlit UI)
+
 ## Notes for Judges / Demo
-- LLM is optional; decisions are rule-based for reliability.
-- LLM improves policy summary quality when enabled.
-- Supports TXT/PDF input in the UI.
+- Decisions remain deterministic and reliable without LLM.
+- LLM improves the quality and readability of policy summaries.
+- Supports TXT/PDF input for fast demos.

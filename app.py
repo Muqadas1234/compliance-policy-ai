@@ -68,7 +68,7 @@ st.set_page_config(page_title="ComplyFlow AI", page_icon="✅", layout="wide")
 st.markdown(
     """
     <style>
-    .block-container { padding-top: 4rem; max-width: 1600px; width: 100%; }
+    .block-container { padding-top: 1rem; max-width: 1600px; width: 100%; }
     body { background: #f5f7fb; font-size: 18px; color: #0f172a; }
     .stApp, .stMarkdown, .stText, .stTextInput, .stTextArea, .stSelectbox, .stRadio {
         font-size: 18px; color: #0f172a;
@@ -136,16 +136,17 @@ st.markdown(
     [data-testid="stMetricValue"] { color: #0f172a; }
     .cf-page {
         background: linear-gradient(180deg, #ffffff 0%, #f5f7fb 70%, #f5f7fb 100%);
-        padding: 32px 18px 10px 18px; border-radius: 16px;
+        padding: 10px 14px 4px 14px; border-radius: 16px;
         border: 1px solid #e2e8f0;
+        margin-top: 6px;
     }
     .cf-card {
         border: 1px solid #e2e8f0;
         border-radius: 14px;
-        padding: 24px 26px;
+        padding: 12px 16px;
         background: #ffffff;
         box-shadow: 0 8px 22px rgba(15, 23, 42, 0.08);
-        margin: 0 0 18px 0 !important;
+        margin: 0 0 6px 0 !important;
     }
     .cf-card + .cf-card { margin-top: 16px; }
     .cf-card-light {
@@ -169,7 +170,7 @@ st.markdown(
         background: #fff7ed;
     }
     .cf-muted { color: #475569; }
-    .cf-title { font-size: 1.7rem; font-weight: 800; color: #0f172a; }
+    .cf-title { font-size: 1.55rem; font-weight: 800; color: #0f172a; }
     .cf-subtitle { color: #475569; }
     .cf-subtitle-strong { color: #1f2937; font-size: 1.05rem; font-weight: 700; }
     .cf-chip {
@@ -194,9 +195,10 @@ st.markdown(
     }
     .cf-center { text-align: center; }
     .cf-section-title {
-        font-size: 1.05rem; font-weight: 700; color: #0f172a; margin-bottom: 14px;
+        font-size: 1.05rem; font-weight: 700; color: #0f172a;
+        margin-top: 10px; margin-bottom: 14px;
     }
-    .cf-divider { height: 1px; background: #e2e8f0; margin: 24px 0; }
+    .cf-divider { height: 1px; background: #e2e8f0; margin: 10px 0; }
     .cf-grid {
         display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
         gap: 18px; margin: 16px 0 18px 0;

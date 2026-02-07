@@ -1,7 +1,41 @@
-# ComplyFlow AI
-AI Compliance Decision System
+<div align="center">
+  <h1>ComplyFlow AI</h1>
+  <p><strong>AI Compliance Decision System</strong></p>
+  <p>Automates compliance decisions by comparing documents against policies, scoring risk, and producing a clear audit trail for review.</p>
+  <p>
+    <img alt="Python" src="https://img.shields.io/badge/Python-3.10%2B-blue" />
+    <img alt="Streamlit" src="https://img.shields.io/badge/Streamlit-App-ff4b4b" />
+    <img alt="Qdrant" src="https://img.shields.io/badge/Qdrant-Vector%20DB-4b7bec" />
+    <img alt="LlamaIndex" src="https://img.shields.io/badge/LlamaIndex-RAG-7f8c8d" />
+    <img alt="Hugging Face" src="https://img.shields.io/badge/Hugging%20Face-Embeddings-f1c40f" />
+    <img alt="Docker" src="https://img.shields.io/badge/Docker-Ready-2496ed" />
+  </p>
+  <p>
+    <a href="https://huggingface.co/spaces/Muqadas-13/complyflow-ai">Live Demo</a> ·
+    <a href="#quick-start-windows">Quick Start</a> ·
+    <a href="#project-structure">Project Structure</a>
+  </p>
+</div>
 
-Automates compliance decisions by comparing documents against policies, scoring risk, and producing a clear audit trail for review.
+## Table of Contents
+- Problem Statement
+- Solution
+- Key Features
+- Tech Stack
+- Architecture (High Level)
+- Project Structure
+- Quick Start (Windows)
+- Environment (.env)
+- Run Qdrant (Docker mode)
+- Ingest Policies
+- Run the App
+- Optional: Test Retrieval
+- Sample Inputs
+- Important Implementation Steps Completed
+- Troubleshooting
+- Teammates
+- Notes for Judges / Demo
+- Try the Demo
 
 ## Problem Statement
 Organizations struggle to consistently validate documents (expenses, requests, communications) against internal policies. Manual review is slow, error‑prone, and inconsistent.

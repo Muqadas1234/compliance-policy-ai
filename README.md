@@ -151,9 +151,11 @@ pip install -r requirements.txt
 ```
 
 ## Teammates
-- Sana Adeel — Core pipeline & setup (first part)
-- Muqadas — Agents (policy, risk, workflow)
-- Ahmad Gul — Frontend (Streamlit UI)
+| Name | Role | Key Contributions |
+| --- | --- | --- |
+| Sana Adeel | Core pipeline & setup | Initial project setup, environment structure, and core pipeline wiring |
+| Muqadas | Agents | Policy, Risk, and Workflow agents logic and orchestration |
+| Ahmad Gul | Frontend | Streamlit UI, layout, styling, and user experience polish |
 
 ## Notes for Judges / Demo
 - Decisions remain deterministic and reliable without LLM.

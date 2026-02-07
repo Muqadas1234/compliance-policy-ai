@@ -1,4 +1,6 @@
-# AI Compliance Decision System
+# ComplyFlow AI
+AI Compliance Decision System
+
 Automates compliance decisions by comparing documents against policies, scoring risk, and producing a clear audit trail for review.
 
 ## Problem Statement
@@ -152,3 +154,6 @@ Teammates: 🟢 Sana Adeel | 🟠 Muqadas | 🔵 Ahmad Gul
 - Decisions remain deterministic and reliable without LLM.
 - LLM improves the quality and readability of policy summaries.
 - Supports TXT/PDF input for fast demos.
+
+## Try the Demo
+Live demo (Hugging Face Spaces): https://huggingface.co/spaces/Muqadas-13/complyflow-ai

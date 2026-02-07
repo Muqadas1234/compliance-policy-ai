@@ -1,13 +1,3 @@
----
-title: AI Compliance Decision System
-emoji: "✅"
-colorFrom: indigo
-colorTo: pink
-sdk: docker
-app_file: app.py
-pinned: false
----
-
 # AI Compliance Decision System
 Automates compliance decisions by comparing documents against policies, scoring risk, and producing a clear audit trail for review.
 

@@ -151,6 +151,7 @@ pip install -r requirements.txt
 ```
 
 ## Teammates
+Teammates: 🟢 Sana Adeel | 🟠 Muqadas | 🔵 Ahmad Gul
 | Name | Role | Phase | Key Contributions |
 | --- | --- | --- | --- |
 | 🟢 Sana Adeel | Policy ingestion & retrieval | Phase 1 | Policies dataset, ingestion pipeline, retrieval function |

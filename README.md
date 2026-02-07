@@ -151,11 +151,11 @@ pip install -r requirements.txt
 ```
 
 ## Teammates
-| Name | Role | Key Contributions |
-| --- | --- | --- |
-| Sana Adeel | Core pipeline & setup | Initial project setup, environment structure, and core pipeline wiring |
-| Muqadas | Agents | Policy, Risk, and Workflow agents logic and orchestration |
-| Ahmad Gul | Frontend | Streamlit UI, layout, styling, and user experience polish |
+| Name | Role | Phase | Key Contributions |
+| --- | --- | --- | --- |
+| Sana Adeel | Policy ingestion & retrieval | Phase 1 (first) | Policies dataset, ingestion pipeline, retrieval function |
+| Muqadas | Agents & decision logic | Phase 2 (second) | Policy/Risk/Workflow agents and decision orchestration |
+| Ahmad Gul | UI & demo integration | Phase 3 (last) | Streamlit UI, file upload, demo integration |
 
 ## Notes for Judges / Demo
 - Decisions remain deterministic and reliable without LLM.

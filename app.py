@@ -171,6 +171,7 @@ st.markdown(
     .cf-muted { color: #475569; }
     .cf-title { font-size: 1.7rem; font-weight: 800; color: #0f172a; }
     .cf-subtitle { color: #475569; }
+    .cf-subtitle-strong { color: #1f2937; font-size: 1.05rem; font-weight: 700; }
     .cf-chip {
         display: inline-block; padding: 4px 10px; border-radius: 999px;
         background: #e0e7ff;
@@ -228,6 +229,7 @@ st.markdown(
         .stSelectbox, .stRadio, .stMetric { font-size: 16px; }
         .cf-page { padding: 18px 12px 8px 12px; }
         .cf-title { font-size: 1.35rem; }
+        .cf-subtitle-strong { font-size: 1rem; }
         .cf-card { padding: 16px 16px; }
         .cf-grid { grid-template-columns: 1fr; gap: 12px; }
         .cf-pill { font-size: 0.92rem; }
@@ -240,6 +242,7 @@ st.markdown(
     @media (max-width: 520px) {
         .cf-card { padding: 14px 14px; }
         .cf-title { font-size: 1.2rem; }
+        .cf-subtitle-strong { font-size: 0.95rem; }
         .cf-chip, .cf-badge, .cf-chip-warn, .cf-chip-safe { font-size: 0.75rem; }
         div[data-testid="stHorizontalBlock"] { gap: 12px !important; }
         textarea { min-height: 140px !important; }
@@ -254,7 +257,8 @@ st.markdown(
     <div class="cf-page">
         <div class="cf-card cf-card-accent cf-center">
             <div class="cf-title">ComplyFlow AI</div>
-            <div class="cf-subtitle">AI Compliance Decision System</div>
+            <div class="cf-subtitle cf-subtitle-strong">AI Compliance Decision System</div>
+            <div class="cf-subtitle">Automates compliance decisions by comparing documents against policies, scoring risk, and producing a clear audit trail for review.</div>
         </div>
         <div class="cf-divider"></div>
     </div>
